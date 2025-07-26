@@ -6,9 +6,10 @@ public class SwapNumber {
 
     void swap(int a, int b){
         System.out.println("Before swap a & b "+a +" "+b);
-        int c = a;
+      /*  int c = a;
         a=b;
-        b=c;
+        b=c;*/
+        a= (a+b) - (b=a);
         System.out.println("After swap a & b "+a +" "+b);
     }
 
